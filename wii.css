@@ -1,0 +1,92 @@
+html{
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: black;
+}
+
+#everything{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#everything{ animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+/* button{
+    border: none;
+    background-color: none;
+} */
+
+a{
+    text-decoration: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    height: 25vh;
+    width: 50vh;
+    border: 2px Solid gray;
+    border-radius: 10%;
+    margin: 10px;
+    overflow: hidden;
+}
+
+#clock{
+    display: flex;
+    position: absolute;
+    font-family: 'Digit';
+    color: gray;
+    text-shadow: 4px 4px 4px lightskyblue;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+.boxs{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    height: 25vh;
+    width: 50vh;
+    border: 2px Solid gray;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* .boxtext{
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    opacity: .5;
+    margin-top: auto;
+    margin: 10px;
+} */
+
+img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+@font-face { font-family: Digit; src: url('DS-DIGII.TTF'); } 
